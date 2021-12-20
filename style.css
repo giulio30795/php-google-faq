@@ -1,0 +1,36 @@
+
+img{
+    width:150px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    border-bottom: 1px solid black;
+}
+
+li{
+    margin: 0 10px;
+    border-bottom: 2px solid transparent ;
+    padding-bottom: 5px;
+
+}
+
+li:hover{
+    color: #3367d6;
+    border-bottom: 2px solid #3367d6 ;
+    transition: .1s;
+    cursor: pointer;
+}
+
+main {
+    margin: 0 300px
+}
